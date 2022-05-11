@@ -1,4 +1,4 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._01_singleton;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -10,7 +10,7 @@ public class SpringExample {
             SpringConfig.class);
         String hello = applicationContext.getBean("hello", String.class);
         String hello2 = applicationContext.getBean("hello", String.class);
-        System.out.println(hello==hello2);
+        System.out.println(hello.equals(hello2));
     }
     
 }

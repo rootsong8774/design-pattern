@@ -1,4 +1,4 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._01_singleton;
 
 import java.io.Serializable;
 

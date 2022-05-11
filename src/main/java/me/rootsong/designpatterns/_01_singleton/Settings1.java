@@ -1,4 +1,4 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._01_singleton;
 
 /**
  * private 생성자와 public static 메소드를 사용하는 방법

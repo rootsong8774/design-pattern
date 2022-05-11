@@ -1,4 +1,4 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._01_singleton;
 
 import java.io.IOException;
 import java.lang.reflect.Constructor;
@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 public class App {
     
     public static void main(String[] args)
-        throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, IOException, ClassNotFoundException {
+        throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Settings4 settings = Settings4.getInstance();
         
         Constructor<Settings4> constructor = Settings4.class.getDeclaredConstructor();

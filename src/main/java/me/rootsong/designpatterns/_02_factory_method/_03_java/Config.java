@@ -1,13 +1,14 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._02_factory_method._03_java;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SpringConfig {
+public class Config {
     
     @Bean
     public String hello() {
         return "hello";
     }
+
 }

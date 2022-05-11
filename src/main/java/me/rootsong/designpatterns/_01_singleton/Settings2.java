@@ -1,4 +1,4 @@
-package me.rootsong.designpatterns;
+package me.rootsong.designpatterns._01_singleton;
 
 /**
  * synchronized 사용해서 동기화 처리
